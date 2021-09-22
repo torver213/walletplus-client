@@ -138,6 +138,7 @@ button:hover {
     font-size: 10px;
     word-break: break-word;
     margin: 10px;
+    padding-top: 3em;
   }
   .card-body .p-4{
     padding: 0 !important;
