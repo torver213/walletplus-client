@@ -1,0 +1,147 @@
+.login-container,.register-container{
+  background-color: #006988;
+  background-blend-mode: screen;
+  background-size: cover;
+  background-position: 100%;
+  height: 100%;
+  max-width: 100% !important;
+}
+.login-container{
+  background-image: url(./assets/images/login-bg.jpg);
+  height: 100vh;
+}
+.register-container{
+  background-image: url(./assets/images/register-bg.jpg);
+}
+.top-header{
+  background-image: url(./assets/images/top.jpg);
+  background-color: #006988;
+  background-blend-mode: screen;
+  background-size: cover;
+  background-position: 100%;
+  min-height: 50vh;
+  width: 100%;
+  position: relative;
+  margin-top: 100px;
+
+}
+.top-header .title{
+  font-size: 3em;
+}
+.card .subtitle{
+  color: #006988 !important;
+}
+.mt--5{
+  margin-top: -100px;
+}
+a{
+  color: #006988
+}
+
+
+.title{
+  color: aliceblue;
+  font-size: 7em;
+  font-weight: 900;
+}
+.title span{
+  color: yellow;
+}
+.subtitle{
+  color: aliceblue;
+  font-size: 3em;
+  font-weight: 900;
+}
+
+input{
+  width: 100%;
+  border-radius: 30px;
+  height: 45px;
+  outline: none;
+  border: 1px solid aliceblue;
+}
+
+button {
+  background-color: #006988;
+  color: aliceblue;
+  border-radius: 30px;
+  height: 45px;
+  border: none;
+  outline: none;
+}
+button:hover {
+  background-color: #001;
+  transition: 2s;
+}
+.register-container button a {
+  color: aliceblue
+}
+.btn-outline-primary {
+  color: #006988;
+  border-color: #006988;
+}
+.card-header{
+  background-color: #006988;
+  color: aliceblue;
+}
+
+.loading{
+  position: absolute;
+  top: 50%;
+  left:50%;
+  width: 100px;
+  height: 100px;
+  margin: -50px 0px 0px -50px;
+  border: 10px solid aliceblue;
+  border-top: 10px solid #006988;
+  border-radius: 50%;
+  animation: spinLoader 1s linear infinite;
+}
+
+.image-div{
+  height: 200px;
+  width: 200px;
+  border: 5px solid rgb(0, 105, 136);
+  border-radius: 50%;
+  position: relative;
+  margin: -100px auto 0px;
+}
+.profile-img{
+  border-radius: 50%;
+  width: 190px;
+  height: 190px;
+  border: 2px solid aliceblue;
+}
+
+@keyframes spinLoader{
+  0%{
+    transform: rotate(0deg);
+  }
+  100%{
+    transform: rotate(360deg);
+  }
+}
+@media screen and (max-width: 500px){
+  button{
+    font-size: 12px;
+  }
+  .subtitle{
+    font-size: 1.2em;
+  }
+  .mt--5{
+    margin-top: 0px;
+  }
+  .col-sm-6{
+    width: 50%;
+  }
+  .card h5{
+    font-size: 12px;
+    word-break: break-word;
+  }
+  .card-body .p-4{
+    padding: 0 !important;
+  }
+  .title{
+    font-size: 2em;
+  }
+}
