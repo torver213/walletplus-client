@@ -42,7 +42,7 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 
 ## Want To See This Project In Action?
 
-This is project is hosted live on heroku. *A demo is worth a thousand words*. Visit [Demo](https://supawalletplus.herokuapp.com)
+This is project is hosted live on heroku. *A demo is worth a thousand words*. Visit [Demo](https://walletplus.supatechie.ga)
 
 ## Available Scripts
 
