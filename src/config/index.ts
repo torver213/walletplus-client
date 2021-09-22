@@ -9,7 +9,7 @@ const isLocalhost = Boolean(
         /^127(?:\.(?:25[0-5]|2[0-4][0-9]|[01]?[0-9][0-9]?)){3}$/
     )
 );
-export const SERVER_URL =  isLocalhost ? "http://localhost:5000/" : "https://api-walletplus.supatechie.ga/"
+export const SERVER_URL =  isLocalhost ? "http://localhost:5000/" : "https://api.walletplus.supatechie.ga/"
 
 export const API_URL = `${SERVER_URL}api/`
 
