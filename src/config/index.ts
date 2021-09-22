@@ -9,14 +9,12 @@ const isLocalhost = Boolean(
         /^127(?:\.(?:25[0-5]|2[0-4][0-9]|[01]?[0-9][0-9]?)){3}$/
     )
 );
-export const SERVER_URL =  isLocalhost ? "http://localhost:5000/" : "https://api.walletplus.supatechie.ga/"
+export const SERVER_URL =  isLocalhost ? "http://localhost:5000/" : "https://api-supawalletplus.herokuapp.com/api/"
 
 export const API_URL = `${SERVER_URL}api/`
 
 export const Axios = axios.create({withCredentials:true,baseURL: API_URL})
 
-export const redirectUrl  = isLocalhost ? "http://localhost:3000" : "https://walletplus.supatechie.ga/"
+export const redirectUrl  = isLocalhost ? "http://localhost:3000" : "https://supawalletplus.herokuapp.com/"
 
 export const streamUrl = API_URL + "streams"
-
-

@@ -40,10 +40,6 @@ To improve the performance of our app and limit the number of database calls, a 
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-## Want To See This Project In Action?
-
-This is project is hosted live on heroku. *A demo is worth a thousand words*. Visit [Demo](https://walletplus.supatechie.ga)
-
 ## Available Scripts
 
 In the project directory, you can run:
