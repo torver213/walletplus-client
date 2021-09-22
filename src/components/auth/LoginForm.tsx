@@ -11,28 +11,29 @@ const LoginForm = () =>{
     const [usernameError, setUsernameError] = useState('')
     const [passwordError, setPasswordError] = useState('')
     const [message, setMessage] = useState('')
-    const [isError, setIsError] = useState(false)
     const [isLoading, setIsLoading] = useState(false)
 
     const handleUsernameInput = (e: React.ChangeEvent<HTMLInputElement>) =>{
         setUsername(e.target.value)
+        setUsernameError('')
     }
 
     const handlePasswordInput = (e: React.ChangeEvent<HTMLInputElement>) =>{
         setPassword(e.target.value)
+        setPasswordError('')
     }
 
     const handleSubmit = async(e: React.FormEvent) =>{
         e.preventDefault()
         try {
-            setIsError(false)
+            let isError = false
             if(username.trim() === ""){
                 setUsernameError('Please enter your username or email address or mobile number')
-                setIsError(true)
+                isError = true
             }
             if(password.trim() === ""){
                 setPasswordError('Please enter your password')
-                setIsError(true)
+                isError = true
             }
             if(isError) return
             setIsLoading(true)
