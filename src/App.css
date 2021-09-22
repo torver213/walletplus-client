@@ -135,13 +135,18 @@ button:hover {
     width: 50%;
   }
   .card h5{
-    font-size: 12px;
+    font-size: 10px;
     word-break: break-word;
+    margin: 10px;
   }
   .card-body .p-4{
     padding: 0 !important;
   }
   .title{
     font-size: 2em;
+  }
+  .card{
+    min-height: 100px !important;
+    text-align: center;
   }
 }
