@@ -145,6 +145,9 @@ button:hover {
   .title{
     font-size: 2em;
   }
+  .p-5{
+    padding: 0px !important;
+  }
   .card{
     min-height: 100px !important;
     text-align: center;
